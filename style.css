@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Dancing+Script:wght@700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: hsl(221, 100%, 96%);
+    height: 100vh;
+    width: 100vw;
+    font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.grand{
+    background-color: hsl(0, 0%, 100%);
+    width: 700px;
+    height: 500px;
+    border-radius: 30px ;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.parent{
+    background-color: hsl(252, 98%, 56%);
+    width: 50%;
+    height: 100%;
+    border-radius: 30px;
+}
+.child{
+    background-image:linear-gradient(rgb(65, 1, 213) 70%, hsl(252, 98%, 56%)    )   ;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px ;
+    position: relative;
+    top: 100px;
+    left: 70px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.information{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.one{
+    background-color: hsla(0, 100%, 67%,0.1);
+    display: flex;
+    align-items: center;
+}
+.two{
+    background-color:hsla(39, 100%, 56%,0.1); 
+    display: flex;
+    align-items: center;
+}
+.three{
+    background-color: hsla(166, 100%, 37%,0.1);
+    display: flex;
+    align-items: center;
+}
+.four{
+    background-color: hsla(234, 85%, 45%,0.1);
+    display: flex;
+    align-items: center;
+}
+div.continue{
+   background-color:  hsl(224, 30%, 27%);
+   border-radius: 30px  !important;
+   margin-top: 20px !important;
+   position: relative;
+}
+.one,
+.two,
+.three,
+.four,
+.continue{
+    width: 250px;
+    height: 60px;
+    position: relative;
+    left:50px ;
+    border-radius: 10px;
+}
+.summary{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 20px;
+    position: relative;
+    top: -30px;
+    margin-bottom: -10px;
+}
+.number{
+    color: white;
+    font-size: 70px;
+}
+.number1{
+    color: rgb(255, 255, 255, 50%);
+    font-size: 15px;
+}
+.result{
+    color: rgb(255, 255, 255,70%);
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 10px;
+    margin-bottom: -40px;
+    text-transform: capitalize;
+}
+.great{
+    text-transform: capitalize;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 115px;
+    
+}
+.paragraph{
+    font-size: 18px;
+    color: rgb(255,255,255,60%);
+    width: 290px;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    left: 30px;
+}
+.span1{
+    color: hsl( 0, 100%,67% );
+    margin-left: 45px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.number10{
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 70px;
+}
+.pre1{
+    font-size: 18px;
+    color:black;
+    opacity: 0.6;
+}
+.span2{
+    color:hsl(40, 99%, 50%);
+    font-weight: bolder;
+    margin-left: 45px;
+    text-transform: capitalize;
+}
+.span3{
+    color: rgb(7, 251, 149);
+    margin-left: 45px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.span4{
+    text-transform: capitalize;
+    margin-left: 45px;
+    color: rgb(114, 10, 240);
+}
+span{
+font-size: 18px;
+}
+.number11,
+.number12{
+    margin-left: 85px !important;
+    font-weight: bold;
+}
+p.continue{
+    position: absolute;
+    top: -5px;
+    left: 85px;
+    color: white;
+    font-size: 20px;
+}
+img{
+    width: 30px;
+    position: absolute;
+    left: 10px;
+}
